@@ -1,0 +1,13 @@
+﻿  Sort.h
+g:\数据结构与算法封装\数据结构与算法封装\cpp\sort1\sort1\sort.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  Sort.cpp
+g:\数据结构与算法封装\数据结构与算法封装\cpp\sort1\sort1\sort.cpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+g:\数据结构与算法封装\数据结构与算法封装\cpp\sort1\sort1\sort.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  main.cpp
+g:\数据结构与算法封装\数据结构与算法封装\cpp\sort1\sort1\main.cpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+g:\数据结构与算法封装\数据结构与算法封装\cpp\sort1\sort1\sort.cpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+g:\数据结构与算法封装\数据结构与算法封装\cpp\sort1\sort1\sort.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  正在生成代码...
+Debug\Sort.obj : warning LNK4042: 对象被多次指定；已忽略多余的指定
+  sort1.vcxproj -> G:\数据结构与算法封装\数据结构与算法封装\cpp\sort1\Debug\sort1.exe
+  sort1.vcxproj -> G:\数据结构与算法封装\数据结构与算法封装\cpp\sort1\Debug\sort1.pdb (Full PDB)

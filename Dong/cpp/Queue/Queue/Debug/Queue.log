@@ -1,0 +1,10 @@
+﻿  main.cpp
+g:\数据结构与算法封装\数据结构与算法封装\cpp\queue\queue\main.cpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+g:\数据结构与算法封装\数据结构与算法封装\cpp\queue\queue\queue.cpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+g:\数据结构与算法封装\数据结构与算法封装\cpp\queue\queue\queue.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  Queue.cpp
+g:\数据结构与算法封装\数据结构与算法封装\cpp\queue\queue\queue.cpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+g:\数据结构与算法封装\数据结构与算法封装\cpp\queue\queue\queue.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  正在生成代码...
+  Queue.vcxproj -> G:\数据结构与算法封装\数据结构与算法封装\cpp\Queue\Debug\Queue.exe
+  Queue.vcxproj -> G:\数据结构与算法封装\数据结构与算法封装\cpp\Queue\Debug\Queue.pdb (Full PDB)

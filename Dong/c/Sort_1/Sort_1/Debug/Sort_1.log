@@ -1,0 +1,6 @@
+﻿  main.c
+g:\数据结构与算法封装\数据结构与算法封装\c\sort_1\sort_1\main.c : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+g:\数据结构与算法封装\数据结构与算法封装\c\sort_1\sort_1\sort_1.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+g:\数据结构与算法封装\数据结构与算法封装\c\sort_1\sort_1\main.c(21): warning C4013: “system”未定义；假设外部返回 int
+  Sort_1.vcxproj -> G:\数据结构与算法封装\数据结构与算法封装\c\Sort_1\Debug\Sort_1.exe
+  Sort_1.vcxproj -> G:\数据结构与算法封装\数据结构与算法封装\c\Sort_1\Debug\Sort_1.pdb (Full PDB)

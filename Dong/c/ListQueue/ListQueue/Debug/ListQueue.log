@@ -1,0 +1,14 @@
+﻿  main.c
+g:\数据结构与算法封装\数据结构与算法封装\c\listqueue\listqueue\main.c : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+g:\数据结构与算法封装\数据结构与算法封装\c\listqueue\listqueue\list_queue.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+g:\数据结构与算法封装\数据结构与算法封装\c\listqueue\listqueue\main.c(22): warning C4013: “system”未定义；假设外部返回 int
+  List_Queue.c
+g:\数据结构与算法封装\数据结构与算法封装\c\listqueue\listqueue\list_queue.c : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+g:\数据结构与算法封装\数据结构与算法封装\c\listqueue\listqueue\list_queue.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+g:\数据结构与算法封装\数据结构与算法封装\c\listqueue\listqueue\list_queue.c(15): warning C4013: “malloc”未定义；假设外部返回 int
+g:\数据结构与算法封装\数据结构与算法封装\c\listqueue\listqueue\list_queue.c(22): warning C4101: “p”: 未引用的局部变量
+g:\数据结构与算法封装\数据结构与算法封装\c\listqueue\listqueue\list_queue.c(40): warning C4013: “free”未定义；假设外部返回 int
+  正在生成代码...
+g:\数据结构与算法封装\数据结构与算法封装\c\listqueue\listqueue\list_queue.c(43): warning C4715: “outQueue”: 不是所有的控件路径都返回值
+  ListQueue.vcxproj -> G:\数据结构与算法封装\数据结构与算法封装\c\ListQueue\Debug\ListQueue.exe
+  ListQueue.vcxproj -> G:\数据结构与算法封装\数据结构与算法封装\c\ListQueue\Debug\ListQueue.pdb (Full PDB)

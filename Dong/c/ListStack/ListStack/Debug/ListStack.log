@@ -1,0 +1,11 @@
+﻿  LinkStack.c
+g:\数据结构与算法封装\数据结构与算法封装\c\liststack\liststack\linkstack.c : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+g:\数据结构与算法封装\数据结构与算法封装\c\liststack\liststack\linkstack.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+g:\数据结构与算法封装\数据结构与算法封装\c\liststack\liststack\linkstack.c(16): warning C4013: “malloc”未定义；假设外部返回 int
+g:\数据结构与算法封装\数据结构与算法封装\c\liststack\liststack\linkstack.c(25): warning C4133: “=”: 从“Node *”到“int *”的类型不兼容
+g:\数据结构与算法封装\数据结构与算法封装\c\liststack\liststack\linkstack.c(38): warning C4013: “free”未定义；假设外部返回 int
+g:\数据结构与算法封装\数据结构与算法封装\c\liststack\liststack\linkstack.c(35): warning C4133: “初始化”: 从“int *”到“Node *”的类型不兼容
+g:\数据结构与算法封装\数据结构与算法封装\c\liststack\liststack\linkstack.c(49): warning C4133: “=”: 从“int *”到“Node *”的类型不兼容
+g:\数据结构与算法封装\数据结构与算法封装\c\liststack\liststack\linkstack.c(45): warning C4133: “初始化”: 从“int *”到“Node *”的类型不兼容
+  ListStack.vcxproj -> G:\数据结构与算法封装\数据结构与算法封装\c\ListStack\Debug\ListStack.exe
+  ListStack.vcxproj -> G:\数据结构与算法封装\数据结构与算法封装\c\ListStack\Debug\ListStack.pdb (Full PDB)

@@ -1,0 +1,12 @@
+﻿  tree_Binary.c
+g:\数据结构与算法封装\数据结构与算法封装\c\tree_binary\tree_binary\tree_binary.c : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+g:\数据结构与算法封装\数据结构与算法封装\c\tree_binary\tree_binary\tree_binary.c(26): warning C4013: “malloc”未定义；假设外部返回 int
+g:\数据结构与算法封装\数据结构与算法封装\c\tree_binary\tree_binary\tree_binary.c(19): warning C4473: “scanf_s”: 没有为格式字符串传递足够的参数
+  g:\数据结构与算法封装\数据结构与算法封装\c\tree_binary\tree_binary\tree_binary.c(19): note: 占位符和其参数预计 2 可变参数，但提供的却是 1 参数
+  g:\数据结构与算法封装\数据结构与算法封装\c\tree_binary\tree_binary\tree_binary.c(19): note: 缺失的可变参数 2 为格式字符串“%c”所需
+  g:\数据结构与算法封装\数据结构与算法封装\c\tree_binary\tree_binary\tree_binary.c(19): note: 此参数用作缓冲区大小
+g:\数据结构与算法封装\数据结构与算法封装\c\tree_binary\tree_binary\tree_binary.c(87): warning C4013: “free”未定义；假设外部返回 int
+g:\数据结构与算法封装\数据结构与算法封装\c\tree_binary\tree_binary\tree_binary.c(179): warning C4020: “Init_Tree”: 实参太多
+g:\数据结构与算法封装\数据结构与算法封装\c\tree_binary\tree_binary\tree_binary.c(181): warning C4020: “Init_Tree”: 实参太多
+  tree_Binary.vcxproj -> G:\数据结构与算法封装\数据结构与算法封装\c\tree_Binary\Debug\tree_Binary.exe
+  tree_Binary.vcxproj -> G:\数据结构与算法封装\数据结构与算法封装\c\tree_Binary\Debug\tree_Binary.pdb (Full PDB)
