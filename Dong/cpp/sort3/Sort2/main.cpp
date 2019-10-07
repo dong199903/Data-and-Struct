@@ -13,8 +13,10 @@
 void main()
 {
 	Sort<int> s1(5);
-	cin >> s1;
-	s1.sort_Radix();
-	s1.print();
+	cin >> s1;//输入数据的个数
+	//s1.sort_Count();
+	s1.sort_Radix();//-------------------存在错误
+	//s1.sort_Bucket();
+	//s1.print();
 	system("pause");
 }

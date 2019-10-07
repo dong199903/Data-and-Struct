@@ -14,7 +14,10 @@ using namespace std;
 void main()
 {
 	int arr[] = { 4,8,1,1,9,45,3,99,10,5 };
-	sort_Heap(arr, 10);
+	//sort_Merge(arr, 0,9);
+	//sort_Qucik(arr,0, 9);
+	//sort_Shell(arr,10);
+	//sort_Heap(arr, 10);
 	print(arr,10);
 	system("pause");
 }

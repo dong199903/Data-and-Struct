@@ -1,0 +1,9 @@
+﻿  main.cpp
+g:\数据结构算法+数据库+linux\董泽平_数据结构与算法\cpp\贪心\贪心\main.cpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+g:\数据结构算法+数据库+linux\董泽平_数据结构与算法\cpp\贪心\贪心\greedy.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  greedy.cpp
+g:\数据结构算法+数据库+linux\董泽平_数据结构与算法\cpp\贪心\贪心\greedy.cpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+g:\数据结构算法+数据库+linux\董泽平_数据结构与算法\cpp\贪心\贪心\greedy.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  正在生成代码...
+  贪心.vcxproj -> G:\数据结构算法+数据库+Linux\董泽平_数据结构与算法\cpp\贪心\Debug\贪心.exe
+  贪心.vcxproj -> G:\数据结构算法+数据库+Linux\董泽平_数据结构与算法\cpp\贪心\Debug\贪心.pdb (Full PDB)

@@ -1,4 +1,8 @@
-﻿  Back_Tracking.c
-g:\数据结构与算法封装\数据结构与算法封装\c\回溯法\回溯法\back_tracking.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
-  回溯法.vcxproj -> G:\数据结构与算法封装\数据结构与算法封装\c\回溯法\Debug\回溯法.exe
-  回溯法.vcxproj -> G:\数据结构与算法封装\数据结构与算法封装\c\回溯法\Debug\回溯法.pdb (Full PDB)
+﻿  main.c
+g:\数据结构算法+数据库+linux\董泽平_数据结构与算法\c\回溯法\回溯法\back_tracking.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+g:\数据结构算法+数据库+linux\董泽平_数据结构与算法\c\回溯法\回溯法\main.c(81): warning C4013: “system”未定义；假设外部返回 int
+  Back_Tracking.c
+g:\数据结构算法+数据库+linux\董泽平_数据结构与算法\c\回溯法\回溯法\back_tracking.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  正在生成代码...
+  回溯法.vcxproj -> G:\数据结构算法+数据库+Linux\董泽平_数据结构与算法\c\回溯法\Debug\回溯法.exe
+  回溯法.vcxproj -> G:\数据结构算法+数据库+Linux\董泽平_数据结构与算法\c\回溯法\Debug\回溯法.pdb (Full PDB)

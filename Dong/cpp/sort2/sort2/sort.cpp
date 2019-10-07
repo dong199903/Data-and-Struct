@@ -137,7 +137,6 @@ void sort_Heap(int *arr, int len)
 	{
 		adjust_Heap(arr, i,len);
 	}
-	print(arr, len);
 	//开始堆排序过程
 	for (int i = len-1; i > 0; i--)
 	{

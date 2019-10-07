@@ -6,7 +6,8 @@
  >
  > 1）二叉树的链式存储
  > 2）二叉树的顺序存储
- > 3）实现了二叉树的基本操作(遍历，高度，节点个数)
+ > 3）二叉树的前序，中序，后续，层序遍历
+ > 4）二叉树高度，节点个数
  ************************************************************************/
 #include "tree_Binary.h"
 #include <stdio.h>
@@ -71,10 +72,28 @@ void post_Order(struct Tree * t)
 /************** 层序遍历 ********************/
 void level_Order(struct Tree * t)
 {
-	//层序遍历，借助队列实现
-	struct Queue q;
-	Queue_Init(&q);
-
+	struct Tree* q[MAX];//队列
+	struct Tree* temp;
+	int front, rear;
+	front = rear = 0;
+	if (t != NULL)
+	{
+		q[rear++] = t;
+	}
+	while (front != rear)
+	{
+		temp = q[front];
+		front++;//模拟出队列
+		printf("%c ", temp->data);
+		if (temp->left != NULL)
+		{
+			q[rear++] = temp->left;
+		}
+		if (temp->right != NULL)
+		{
+			q[rear++] = temp->right;
+		}
+	}
 }
 
 /************** 销毁树 ********************/
@@ -114,53 +133,6 @@ int getCount(struct Tree * t)
 		return getCount(t->left) + getCount(t->right) + 1;
 	}
 }
-
-void Queue_Init(struct Queue * q)
-{
-	q->size = 1;
-	q->front = q->rear = 0;
-	q->data = (char*)malloc(sizeof(char) * q->size);
-}
-void Queue_push(struct Queue *q, char data)
-{
-	//队列满额,自动扩容
-	if ((q->rear + 1) % q->size == q->front)
-	{
-		//队列元素个数
-		int count = 0;
-		int len = (q->rear - q->front) % q->size;
-		q->size = 2 * q->size;
-		char *p = (char*)malloc(sizeof(char)*q->size);
-		for (int i = q->front; i < q->rear; i++)
-		{
-			p[count++] = q->data[i];
-		}
-		free(q->data);
-		q->data = p;
-		q->front = 0;
-		q->rear = count;
-		q->data[q->rear] = data;
-		q->rear = (q->rear + 1) % q->size;
-	}//队列未满，正常入队
-	else {
-		q->data[q->rear] = data;
-		q->rear = (q->rear + 1) % q->size;
-	}
-}
-char Queue_pop(struct Queue *q)
-{
-	if (q->front == q->rear)
-	{
-		return -1;
-	}
-	else {
-		char data = q->data[q->front];
-		q->front = (q->front + 1) % q->size;
-		return data;
-	}
-}
-
-
 /*--------------------------顺序存储方法---------------------------------*/
 void Creat_Tree_Line(struct Tree_Line * t, int index)
 {
@@ -176,9 +148,9 @@ void Creat_Tree_Line(struct Tree_Line * t, int index)
 		t->data[index] = ch;
 		t->count++;
 		//printf("请输入左孩子信息: ");
-		Init_Tree(t, 2 * index);
+		Creat_Tree_Line(t, 2 * index);
 		//printf("请输入右孩子信息: ");
-		Init_Tree(t, 2 * index + 1);
+		Creat_Tree_Line(t, 2 * index + 1);
 	}
 }
 void Init_Tree(struct Tree_Line * t)
@@ -228,8 +200,29 @@ void post(struct Tree_Line * t,int index)
 		printf("%c ", t->data[index]);
 	}
 }
+//层序遍历
 void level(struct Tree_Line * t)
 {
+	int queue[MAX],front,rear,temp;
+	front = rear = 0;
+	if (t->data[1] != '0')
+	{
+		queue[rear++] = 1;
+	}
+	while (rear != front)
+	{
+		temp = queue[front];
+		printf("%c ", t->data[temp]);
+		front++;
+		if (t->data[temp * 2] != '0')
+		{
+			queue[rear++] = temp * 2;
+		}
+		if (t->data[temp * 2 + 1] != '0')
+		{
+			queue[rear++] = temp * 2 + 1;
+		}
+	}
 
 }
 int getHigh_Line(struct Tree_Line * t,int index)

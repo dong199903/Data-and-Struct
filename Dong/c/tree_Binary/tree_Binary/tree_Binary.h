@@ -4,9 +4,10 @@
  > Mail:      1939485575@qq.com
  > Time:      2019-08-14
  >
- > 1）
- > 2）
- > 3）
+ > 1）二叉树的链式存储
+ > 2）二叉树的顺序存储
+ > 3）二叉树的前序，中序，后续，层序遍历
+ > 4）二叉树高度，节点个数
  ************************************************************************/
 #ifndef TREE_BINARY_H
 #define TREE_BINARY_H
@@ -47,20 +48,5 @@ void post(struct Tree_Line * t,int index);
 void level(struct Tree_Line * t);
 int getHigh_Line(struct Tree_Line * t,int index);
 int getCount_Line(struct Tree_Line * t,int index);
-
-
-
-//赋值队列进行层序遍历
-struct Queue
-{
-	int rear;
-	int front;
-	char *data;
-	int size;
-};
-
-void Queue_Init(struct Queue * q);
-void Queue_push(struct Queue *q, char data);
-char Queue_pop(struct Queue *q);
 #endif // !TREE_BINARY_H
 

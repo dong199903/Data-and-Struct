@@ -7,13 +7,14 @@
  > 1）归并排序
  > 2）快速排序
  > 3）希尔排序
+ > 4）堆排序
  ************************************************************************/
 #ifndef SORT_H
 #define SORT_H
 //归并排序
 void sort_Merge(int *arr,int low,int high);
 void Merge(int *arr1,int low,int mid,int high);
-//排序排序
+//快速排序
 void sort_Qucik(int *arr, int low, int high);
 int partition(int *arr, int low, int high);
 //希尔排序

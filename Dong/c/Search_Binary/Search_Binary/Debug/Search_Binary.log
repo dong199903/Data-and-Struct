@@ -1,15 +1,13 @@
-﻿  Search.c
-g:\数据结构与算法封装\数据结构与算法封装\c\search_binary\search_binary\search.c : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
-g:\数据结构与算法封装\数据结构与算法封装\c\search_binary\search_binary\search.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
-  main.c
-g:\数据结构与算法封装\数据结构与算法封装\c\search_binary\search_binary\main.c : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
-g:\数据结构与算法封装\数据结构与算法封装\c\search_binary\search_binary\search.c : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
-g:\数据结构与算法封装\数据结构与算法封装\c\search_binary\search_binary\search.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
-g:\数据结构与算法封装\数据结构与算法封装\c\search_binary\search_binary\main.c(22): warning C4013: “system”未定义；假设外部返回 int
+﻿  Search.h
+g:\数据结构算法+数据库+linux\董泽平_数据结构与算法\c\search_binary\search_binary\search.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  Search.cpp
+g:\数据结构算法+数据库+linux\董泽平_数据结构与算法\c\search_binary\search_binary\search.cpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+g:\数据结构算法+数据库+linux\董泽平_数据结构与算法\c\search_binary\search_binary\search.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  main.cpp
+g:\数据结构算法+数据库+linux\董泽平_数据结构与算法\c\search_binary\search_binary\main.cpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+g:\数据结构算法+数据库+linux\董泽平_数据结构与算法\c\search_binary\search_binary\search.cpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+g:\数据结构算法+数据库+linux\董泽平_数据结构与算法\c\search_binary\search_binary\search.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
   正在生成代码...
-  Search.h
-g:\数据结构与算法封装\数据结构与算法封装\c\search_binary\search_binary\search.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
 Debug\Search.obj : warning LNK4042: 对象被多次指定；已忽略多余的指定
-main.obj : error LNK2019: 无法解析的外部符号 _Search_Binary1，该符号在函数 _main 中被引用
-main.obj : error LNK2019: 无法解析的外部符号 _Search_Binary4，该符号在函数 _main 中被引用
-G:\数据结构与算法封装\数据结构与算法封装\c\Search_Binary\Debug\Search_Binary.exe : fatal error LNK1120: 2 个无法解析的外部命令
+main.obj : error LNK2019: 无法解析的外部符号 "public: int __thiscall Array::Search_Binary4(int)" (?Search_Binary4@Array@@QAEHH@Z)，该符号在函数 _main 中被引用
+G:\数据结构算法+数据库+Linux\董泽平_数据结构与算法\c\Search_Binary\Debug\Search_Binary.exe : fatal error LNK1120: 1 个无法解析的外部命令

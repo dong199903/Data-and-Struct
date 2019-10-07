@@ -91,6 +91,53 @@ void sort_Bucket(int *arr, int len)
 */
 void sort_Count(int *arr, int len)
 {
+	/*
+	T min, max;
+	int i;
+	min = this->arr[0];
+	max = this->arr[0];
+	//找最小和最大值
+	for (i = 1; i < this->len; i++)
+	{
+
+	if (arr[i] < min)
+	{
+	min = arr[i];
+	}
+	if (arr[i] > max)
+	{
+	max = arr[i];
+	}
+	}
+	//按最小值和最大值创建数组
+	T *arr2 = new T[max - min + 1];
+	T num = 0 - min;//关键的一个数字
+	for (i = 0; i < max - min + 1; i++)
+	{
+	arr2[i] = 0;
+	}
+	for (i = 0; i < this->len; i++)
+	{
+	arr2[this->arr[i] + num]++;
+	}
+	//将数组前缀相加
+	for (i = 1; i < max - min + 1; i++)
+	{
+	arr2[i] = arr2[i] + arr2[i - 1];
+	}
+	//创建arr3,逆序遍历原数组，按值找到temp数组位置
+	T *arr3 = new T[this->len];
+	for (i = this->len - 1; i >= 0; i--)
+	{
+	T index;//标记arr2数组下标
+	index = this->arr[i] + num;
+	arr3[arr2[index] - 1] = this->arr[i];
+	arr2[index]--;
+	}
+	delete [] this->arr;
+	this->arr = NULL;
+	this->arr = arr3;
+	*/
 	int min, max;
 	int i;
 	min = arr[0];
@@ -98,7 +145,6 @@ void sort_Count(int *arr, int len)
 	//找最小和最大值
 	for (i = 1; i < len; i++)
 	{
-
 		if (arr[i] < min)
 		{
 			min = arr[i];
@@ -109,7 +155,7 @@ void sort_Count(int *arr, int len)
 		}
 	}
 	//按最小值和最大值创建数组
-	int *arr2 = (int *)malloc(sizeof(int)*max - min + 1);
+	int *arr2 = (int *)malloc(sizeof(int)*(max - min + 1));
 	int num = 0 - min;//关键的一个数字
 	for (i = 0; i < max - min + 1; i++)
 	{
@@ -133,8 +179,13 @@ void sort_Count(int *arr, int len)
 		arr3[arr2[index] - 1] = arr[i];
 		arr2[index]--;
 	}
-	free (arr);
-	arr = arr3;
+	//arr = arr3;
+	for (i = 0; i < len; i++)
+	{
+		arr[i] = arr3[i];
+	}
+	free(arr3);
+	arr3 = NULL;
 }
 
 

@@ -200,7 +200,7 @@ void Sort<T>::sort_Radix()
 			}
 			if (temp == 0)
 			{
-				num = 0;
+				num = 0;//第i位的数据是0
 			}
 			//放在对应下标的桶里面
 			array[num].data[array[num].len++] = this->arr[j];
@@ -217,6 +217,10 @@ void Sort<T>::sort_Radix()
 				array[j].len--;
 			}
 		}
+	}
+	for (i = 0; i < this->len; i++)
+	{
+		cout << this->arr[i] << " ";
 	}
 }
 

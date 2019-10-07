@@ -14,7 +14,7 @@ void main()
 	int arr[10] = { 6,2,1,8,3,5,1,100,99,22 };
 	//sort_Bucket(arr, 10);
 	//sort_Count(arr, 10);
-	sort_Radix(arr, 10);
+	//sort_Radix(arr, 10);-----排序失败
 	arr_Print(arr, 10);
 	system("pause");
 }

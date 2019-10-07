@@ -12,9 +12,17 @@
  ************************************************************************/
 #ifndef SEARCH_H
 #define SEARCH_H
-int Search_Binary1(int *arr,int len,int num);
-int Search_Binary2(int *arr,int len,int num);
-int Search_Binary3(int *arr,int len,int num);
-int Search_Binary4(int *arr,int len,int num);
-int Search_Binary5(int *arr,int len,int num);
+class Array
+{
+private:
+	int* data;
+	int len;
+public:
+	Array();
+	int Search_Binary1(int num);
+	int Search_Binary2(int num);
+	int Search_Binary3(int num);
+	int Search_Binary4(int num);
+	int Search_Binary5(int num);
+};
 #endif // !SEARCH_H
