@@ -1,0 +1,16 @@
+﻿  match_String.cpp
+g:\数据结构算法+数据库+linux\董泽平_数据结构与算法\cpp\match_string\match_string\match_string.cpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+g:\数据结构算法+数据库+linux\董泽平_数据结构与算法\cpp\match_string\match_string\match_string.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+g:\数据结构算法+数据库+linux\董泽平_数据结构与算法\cpp\match_string\match_string\match_string.cpp(28): warning C4018: “<”: 有符号/无符号不匹配
+g:\数据结构算法+数据库+linux\董泽平_数据结构与算法\cpp\match_string\match_string\match_string.cpp(21): warning C4101: “l2”: 未引用的局部变量
+g:\数据结构算法+数据库+linux\董泽平_数据结构与算法\cpp\match_string\match_string\match_string.cpp(21): warning C4101: “index”: 未引用的局部变量
+g:\数据结构算法+数据库+linux\董泽平_数据结构与算法\cpp\match_string\match_string\match_string.cpp(61): warning C4018: “<”: 有符号/无符号不匹配
+g:\数据结构算法+数据库+linux\董泽平_数据结构与算法\cpp\match_string\match_string\match_string.cpp(85): warning C4018: “<”: 有符号/无符号不匹配
+g:\数据结构算法+数据库+linux\董泽平_数据结构与算法\cpp\match_string\match_string\match_string.cpp(132): warning C4018: “<”: 有符号/无符号不匹配
+g:\数据结构算法+数据库+linux\董泽平_数据结构与算法\cpp\match_string\match_string\match_string.cpp(139): warning C4018: “<”: 有符号/无符号不匹配
+  main.cpp
+g:\数据结构算法+数据库+linux\董泽平_数据结构与算法\cpp\match_string\match_string\main.cpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+g:\数据结构算法+数据库+linux\董泽平_数据结构与算法\cpp\match_string\match_string\match_string.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  正在生成代码...
+  match_String.vcxproj -> G:\数据结构算法+数据库+Linux\董泽平_数据结构与算法\cpp\match_String\Debug\match_String.exe
+  match_String.vcxproj -> G:\数据结构算法+数据库+Linux\董泽平_数据结构与算法\cpp\match_String\Debug\match_String.pdb (Full PDB)
